@@ -4,27 +4,121 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet"> 
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
     <title>Home</title>
+
+    <style>
+      body, html {
+        height:100%;
+        font-family: 'Quicksand', sans-serif;
+      }
+    </style>
   </head>
   <body>
     <!-- Application Menu   -->
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light bg-light border-bottom">
       <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">Employee Hub</span>
+        <span class="bg-danger p-2 rounded">
+          <a class="navbar-brand" href="/">
+            <img src="./kra-logo-white.png" alt="" width="auto" height="38">
+          </a>
+        </span>
+        
       </div>
     </nav>
     <!-- Application Menu -->
-    <div>
-    	<div class="container">
-    		<p>
-    			I am excited to begin learning Spring Boot
-    		</p>
-    	</div>
+
+
+    <div class="row" style="height:100%;">
+      <div class="col-2 bg-light">
+        
+        <p class="px-2">
+          
+        </p>
+
+        <div class="p-1">
+          <!-- Menu-->
+        </div>
+      </div>
+
+      <div class="col-8">
+
+        <div class="py-2">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page">You are here: Home</li>
+            </ol>
+          </nav>
+        </div>
+
+        <!-- Greetings Area -->
+        <section class="py-2">
+          <div class="">
+
+            <!-- Section Content  -->
+            <h1>Hello, <br>Good Morning</h1>
+            <p class="text-muted"><small>Today: Tuesday, 10 February 2021</small></p>
+            <p style="max-width: 500px;" class="py-2">The purpose of this section is to show greetings depending on what the time of the day it is.</p>
+
+            <div class="m-2" style="height: 500px;">
+              <img src="" alt="Some Image" height="400px" width="auto" >
+            </div>
+          </div>
+
+                  <!-- Check Mail Section / Important Links-->
+                  <div class="py-2 mb-3">
+                    <p><small>QuickLinks</small></p>
+                    
+                    <!-- Homepage button groups -->
+                    <div class="btn-group">
+                      <a href="#" class="btn btn-sm btn-outline-danger">Check Mail</a>
+                      <a href="#" class="btn btn-sm btn-outline-danger">Online Resources</a>
+                      <a href="#" class="btn btn-sm btn-outline-danger">Notices</a>
+                      <a href="#" class="btn btn-sm btn-outline-danger">Job Opportunity</a>
+                    </div>
+                    
+                  </div>
+        </section>
+        <!-- Greetings area -->
+      </div>
+
+
+      <div class="col-2 bg-light"> 
+        <div class="p-1">
+          <form action="">
+            <div class="input-group">
+              <input type="text" class="form-control form-control-sm" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-sm btn-danger" type="button" id="button-addon2">Find</button>
+            </div>
+          </form>
+          <p class="text-muted">Welfare</p>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Cras justo odio
+              <span class="badge bg-primary rounded-pill">14</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Dapibus ac facilisis in
+              <span class="badge bg-primary rounded-pill">2</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Morbi leo risus
+              <span class="badge bg-primary rounded-pill">1</span>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
     </div>
+
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
